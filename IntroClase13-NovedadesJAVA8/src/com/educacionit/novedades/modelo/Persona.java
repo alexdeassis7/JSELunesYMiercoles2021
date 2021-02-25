@@ -12,6 +12,9 @@ public class Persona implements MiInterface {
 		this.apellido = apellido;
 	}
 
+	
+
+	
 	@Override
 	public void caminar() {
 		System.out.println("soy " + getNombre() + " y estoy caminando ");
